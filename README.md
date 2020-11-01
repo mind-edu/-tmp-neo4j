@@ -3,7 +3,7 @@
 在Linux系统，$PWD表示当前目录路径
 
 ```
-git clone https://gitee.com/mind_edu/tmp-neo4j.git
+https://github.com/mind-edu/tmp-neo4j.git
 cd tmp-neo4j
 docker run \
     --name testneo4j \
