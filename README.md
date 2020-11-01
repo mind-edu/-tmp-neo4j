@@ -14,7 +14,7 @@ docker run \
     -v $PWD/neo4j/import:/var/lib/neo4j/import \
     -v $PWD/neo4j/plugins:/plugins \
     --env NEO4J_AUTH=neo4j/123456 \
-    neo4j:latest
+    neo4j:3.5.0
 ```
 
 data数据持久化的目录: ```$PWD/neo4j/data```
